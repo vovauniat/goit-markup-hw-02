@@ -34,6 +34,13 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
+.vibor-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
 /* ============= END COMPONENTS ============= */
 
 /* ============= HEADER ============= */
@@ -163,3 +170,17 @@ body {
 }
 /* ===============END FILTER =============== */
 /* =============== PODELKI =================== */
+.podelki-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.podelki-type {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
