@@ -1,6 +1,7 @@
 :root {
-  --main-font: "Roboto";
-  --accent-color: #757575;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
 }
 
 body {
@@ -15,20 +16,15 @@ body {
   list-style: none;
 }
 
-.address {
-  font-style: normal;
-}
-
 /* ============= COMPONENTS ============= */
 .modal-btn {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
   cursor: pointer;
-
-  /* color: #ffffff; */
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .modal-btn:hover,
@@ -87,10 +83,11 @@ body {
 
 /* ============= HEADER ============= */
 .navigation-link {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 
   /* color: #ffffff; */
 }
@@ -111,14 +108,17 @@ body {
 /* ============= END HEADER ============= */
 
 /* ============= HERO ============= */
+.hero {
+  background-color: #2f303a;
+}
 .hero-title {
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
-
-  /* color: #ffffff; */
+  text-transform: uppercase;
+  color: #ffffff;
 }
 /* ============= END HERO ============= */
 
@@ -133,16 +133,29 @@ body {
 }
 /* ============= END ABOUT ============= */
 
-/* ============= SERVICES ============= */
-.services-list-name,
-.services-list-price {
+/* ============= osobenosti ============= */
+.osobenosti {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9da4bd;
 }
-/* ============= END SERVICES ============= */
+.osobenosti-zago {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.osobenosti-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/* ============= osobenosti ============= */
 
 /* ============= ADVANTAGES ============= */
 .advantages-list-count {
