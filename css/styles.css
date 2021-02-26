@@ -1,6 +1,8 @@
 :root {
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+  --secondary-color: #757575;
   --accent-color: #2196f3;
 }
 
@@ -32,81 +34,34 @@ body {
   background-color: var(--accent-color);
   color: #ffffff;
 }
-
-.social-links-link {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.2em;
-
-  color: #303030;
-}
-
-.social-links-link:hover,
-.social-links-link:focus {
-  color: var(--accent-color);
-}
-
-.suptitle {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.suptitle-light-theme {
-  color: #303030;
-}
-
-.suptitle-dark-theme {
-  color: rgba(157, 164, 189, 0.6);
-}
-
-.description {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  /* color: #9da4bd; */
-}
-
-.title {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.17;
-  letter-spacing: 0.05em;
-  /* color: #303030; */
-}
 /* ============= END COMPONENTS ============= */
 
 /* ============= HEADER ============= */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
 .navigation-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
-
-  /* color: #ffffff; */
+  color: var(--main-color);
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
   color: var(--accent-color);
 }
-
-.tel-link {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.33;
-  letter-spacing: 0.1em;
-
-  /* color: #ffffff; */
-}
 /* ============= END HEADER ============= */
-
+.body {
+  background-color: #e5e5e5;
+}
 /* ============= HERO ============= */
 .hero {
   background-color: #2f303a;
@@ -121,18 +76,6 @@ body {
   color: #ffffff;
 }
 /* ============= END HERO ============= */
-
-/* ============= ABOUT ============= */
-.about-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.86;
-  letter-spacing: 0.02em;
-
-  /* color: #555555; */
-}
-/* ============= END ABOUT ============= */
-
 /* ============= osobenosti ============= */
 .osobenosti {
   font-weight: 400;
@@ -146,88 +89,77 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 .osobenosti-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
-/* ============= osobenosti ============= */
-
-/* ============= ADVANTAGES ============= */
-.advantages-list-count {
+/* =============  end osobenosti ============= */
+/* ==================chem zanimaemsia ===================*/
+.zagolovok2 {
   font-weight: 700;
-  font-size: 42px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.05em;
-  color: #303030;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+/*  =================end chem zanimaemsia ================*/
+
+/* ============= KOMANDA ============= */
+.team-person {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
 }
 
-.advantages-list-description {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  text-align: center;
-  color: #303030;
-}
-/* ============= END ADVANTAGES ============= */
-
-/* ============= MASTERS ============= */
-.masters-list-title {
+.person-rol {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.39;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: #303030;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
-
-.masters-list-position {
+/* =============END KOMANDA============= */
+.footer {
+  background-color: #2f303a;
+}
+.footer-adress {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--accent-color);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-/* ============= END MASTERS ============= */
-
-/* ============= GALLERY ============= */
-
-/* ============= END GALLERY ============= */
-
-/* ============= CONTACT FORM ============= */
-
-/* ============= END CONTACT FORM ============= */
-
-/* ============= CONTACT INFORMATION ============= */
-.contact-list-link {
+.footer-comun {
   font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
-}
-
-.contact-date {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.67;
-  letter-spacing: 0.02em;
-  color: #9da4bd;
-}
-/* ============= END CONTACT INFORMATION ============= */
-
-/* ============= FOOTER ============= */
-.copyright {
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.2em;
-  color: #9da4bd;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 /* ============= END FOOTER ============= */
+
+/*  ================ PORTFOLIO PAGE CSS ============ */
+/* ========== FILTER =========== */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--main-color);
+  background-color: #f5f4fa;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* ===============END FILTER =============== */
+/* =============== PODELKI =================== */
