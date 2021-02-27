@@ -4,6 +4,8 @@
   --main-color: #212121;
   --secondary-color: #757575;
   --accent-color: #2196f3;
+  --bd-color-pri: #e5e5e5;
+  --bd-color-sec: #2f303a;
 }
 
 body {
@@ -19,6 +21,7 @@ body {
 }
 
 /* ============= COMPONENTS ============= */
+
 .modal-btn {
   font-weight: 700;
   font-size: 16px;
@@ -44,6 +47,12 @@ body {
 /* ============= END COMPONENTS ============= */
 
 /* ============= HEADER ============= */
+.main {
+  background-color: var(--bd-color-pri);
+}
+.header {
+  background-color: #ffffff;
+}
 .logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -66,12 +75,10 @@ body {
   color: var(--accent-color);
 }
 /* ============= END HEADER ============= */
-.body {
-  background-color: #e5e5e5;
-}
+
 /* ============= HERO ============= */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bd-color-sec);
 }
 .hero-title {
   font-family: var(--secondary-font);
@@ -90,6 +97,7 @@ body {
   line-height: 1.67;
   letter-spacing: 0.02em;
   color: #9da4bd;
+  background-color: var(--bd-color-pri);
 }
 .osobenosti-zago {
   font-weight: 700;
@@ -117,6 +125,9 @@ body {
 /*  =================end chem zanimaemsia ================*/
 
 /* ============= KOMANDA ============= */
+.team {
+  background-color: #f5f4fa;
+}
 .team-person {
   font-weight: 500;
   font-size: 16px;
@@ -134,7 +145,7 @@ body {
 }
 /* =============END KOMANDA============= */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--bd-color-sec);
 }
 .footer-adress {
   font-weight: 400;
@@ -153,6 +164,7 @@ body {
 /* ============= END FOOTER ============= */
 
 /*  ================ PORTFOLIO PAGE CSS ============ */
+
 /* ========== FILTER =========== */
 .filter-btn {
   font-weight: 500;
