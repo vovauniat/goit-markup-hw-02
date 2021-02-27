@@ -74,6 +74,12 @@ body {
 .navigation-link:focus {
   color: var(--accent-color);
 }
+.logo-head {
+  color: #212121;
+}
+.logo-fut {
+  color: #ffffff;
+}
 /* ============= END HEADER ============= */
 
 /* ============= HERO ============= */
@@ -81,17 +87,17 @@ body {
   background-color: var(--bd-color-sec);
 }
 .hero-title {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 72px;
-  line-height: 1.18;
-  letter-spacing: 0.05em;
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 /* ============= END HERO ============= */
 /* ============= osobenosti ============= */
-.osobenosti {
+.features {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
@@ -99,14 +105,14 @@ body {
   color: #9da4bd;
   background-color: var(--bd-color-pri);
 }
-.osobenosti-zago {
+.features-zago {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
-.osobenosti-text {
+.features-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -115,7 +121,7 @@ body {
 }
 /* =============  end osobenosti ============= */
 /* ==================chem zanimaemsia ===================*/
-.zagolovok2 {
+.heading2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -182,14 +188,14 @@ body {
 }
 /* ===============END FILTER =============== */
 /* =============== PODELKI =================== */
-.podelki-name {
+.projects-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-color);
 }
-.podelki-type {
+.projects-type {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
